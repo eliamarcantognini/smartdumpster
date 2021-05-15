@@ -1,0 +1,34 @@
+{
+  "name": "sd-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm run build",
+    "start": "node service.js",
+    "serve": "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.1.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "recharts": "^2.0.0-beta.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

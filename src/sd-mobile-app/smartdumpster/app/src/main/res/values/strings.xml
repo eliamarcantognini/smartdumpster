@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">smart-dumpster</string>
+    <string name="sd_available_not">Not connected</string>
+    <string name="connect_to_sd">Connect to SD</string>
+    <string name="select_trash_type">Select trash type</string>
+    <string name="a">A</string>
+    <string name="c">C</string>
+    <string name="b">B</string>
+    <string name="_00_00">--</string>
+    <string name="time_left_to_drop_trash">Time left to drop trash</string>
+    <string name="add_time">Add time</string>
+</resources>
